@@ -15,8 +15,6 @@ use std::path::PathBuf;
 use std::thread;
 use std::time::Duration;
 
-// TODO: Documentation
-
 fn main() {
     let matches = App::new("rtwod2")
         .version("0.1")
