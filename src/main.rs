@@ -43,6 +43,8 @@ fn main() {
     let mut update_urls = config.update.urls.iter().cycle();
     let pause = Duration::from_secs(config.update.interval);
 
+    info!("starting rtwod2");
+
     // Main loop
     let mut first_iteration = true;
     loop {
