@@ -1,6 +1,6 @@
 # rtwod2
 
-A Rust implementation of twod.
+A Rust implementation of [twod] - a [TwoDNS] client.
 
 ## Usage
 
@@ -24,9 +24,12 @@ token = "token"
 timeout = 5
 
 [update]
-# mode = "round_robin"
-mode = "random"
+mode = "random"  # Can be either of: "random", "round_robin"
 interval = 60
 timeout = 5
 urls = [ "https://icanhazip.com", "https://ipinfo.io/ip" ]
 ```
+
+
+[twod]: https://www.github.com/t4k1t/twod
+[TwoDNS]: https://www.twodns.de
