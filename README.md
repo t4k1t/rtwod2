@@ -1,5 +1,7 @@
 # rtwod2
 
+**NOTE: At the time of writing it's not possible to even register for a new TwoDNS account anymore. Since I haven't been using it for quite a while, and there are better alternatives around, rtwod2 won't be updated anymore.**
+
 A Rust implementation of [twod] - a [TwoDNS] client.
 
 ## Usage
